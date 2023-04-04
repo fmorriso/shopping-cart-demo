@@ -38,7 +38,6 @@ public class Shop
             System.out.println("How many do you want to purchase?");
             int quantity = Integer.parseInt(keyboard.nextLine());
 
-
             shoppingCart.add(new Item(itemName, unitCost, quantity));
         }
         keyboard.close();
